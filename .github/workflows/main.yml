@@ -1,5 +1,9 @@
 name: Main Code Push
-on: push
+# on: push
+on:
+  pull_request:
+    types: [opened]
+    branch: devlope
 jobs:
   first-job:
     runs-on: ubuntu-latest

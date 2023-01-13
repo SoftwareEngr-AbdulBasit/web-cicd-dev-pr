@@ -9,6 +9,7 @@ function App() {
         <img className="img" src={logo} />
         <h1>Login</h1>
         <p>Login you account</p>
+        <p>Branches</p>
       </div>
       <div>
         <form>
