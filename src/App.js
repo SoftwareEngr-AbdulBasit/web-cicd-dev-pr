@@ -10,6 +10,7 @@ function App() {
         <h1>Login</h1>
         <p>Login you account</p>
         <p>Branches</p>
+        <p>Feature Updates</p>
       </div>
       <div>
         <form>
