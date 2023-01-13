@@ -1,0 +1,8 @@
+name: Main Code Push
+on: workflow_disptach
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Printing
+        run: echo "First Printing...."

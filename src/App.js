@@ -1,4 +1,4 @@
-import logo from "../src/assests/LOGO.png";
+import logo from "./logo.svg";
 import React from "react";
 import "./App.css";
 
@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="login">
       <div className="login_header">
-        <img src={logo} />
+        <img className="img" src={logo} />
         <h1>Login</h1>
         <p>Login you account</p>
       </div>
