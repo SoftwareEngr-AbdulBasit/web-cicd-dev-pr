@@ -1,7 +1,5 @@
 name: Main Code Push
-on:
-  push:
-    branch: master
+on: workflow_disptach
 jobs:
   first-job:
     runs-on: ubuntu-latest
