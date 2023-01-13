@@ -1,5 +1,5 @@
 name: Main Code Push
-on: workflow_dispatch
+on: push
 jobs:
   first-job:
     runs-on: ubuntu-latest
